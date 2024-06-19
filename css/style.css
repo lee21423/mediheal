@@ -1,0 +1,192 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+
+    color: #1d2088;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.header .inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 1700px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.header .gnb {
+    margin: 0 auto 0 0;
+}
+
+.header .gnb>ul {
+    display: flex;
+    gap: 30px;
+}
+
+.header .gnb>ul>li>a {
+    display: block;
+    line-height: 100px;
+}
+
+.header .inner .util {
+    position: absolute;
+    top: 30%;
+    right: 90px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.main_visual {
+    position: relative;
+}
+
+.main_visual .main_visual_slide .itm strong {
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.main_visual .main_visual_slide .itm p {
+    font-size: 24px;
+    font-weight: 00;
+    margin: 16px 0;
+}
+
+.main_visual .main_visual_slide .itm {
+    position: relative;
+    height: 100vh;
+}
+
+.main_visual .main_visual_slide .itm::after {
+    content: "";
+    position: absolute;
+}
+
+.main_visual .main_visual_slide .itm01 {
+    background: url(../images/main_visual01.jpg) center center/cover;
+}
+
+.main_visual .main_visual_slide .itm02 {
+    background: url(../images/main_visual02.jpg) center center/cover;
+}
+
+.main_visual .main_visual_slide .itm03 {
+    background: url(../images/main_visual03.jpg) center center/cover;
+}
+
+.main_visual .main_visual_slide .itm04 {
+    background: url(../images/main_visual04.jpg) center center/cover;
+}
+
+.main_visual .main_visual_slide .itm05 {
+    background: url(../images/main_visual05.jpg) center center/cover;
+}
+
+.main_visual .main_visual_slide .itm05 {
+    background: url(../images/main_visual06.jpg) ncenter center/cover;
+}
+
+.main_visual .main_visual_slide .itm06 {
+    background: url(../images/main_visual06.jpg) center center/cover;
+}
+
+.main_visual .main_visual_slide .medi {
+    position: absolute;
+    bottom: 40%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+
+    max-width: 1170px;
+    width: 100%;
+}
+
+.content {
+    padding: 80px 0;
+}
+
+.content .inner {
+    display: flex;
+    gap: 30px;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.content .inner .img_box {
+    position: relative;
+    margin: 0 0 16px 0;
+}
+
+.content .inner p {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 16px 0;
+    text-align: center;
+}
+
+.main_content {
+    padding: 120px 0;
+}
+
+.main_content .tit h2 {
+    font-size: 42px;
+    font-weight: 500;
+    margin: 0 0 32px 0;
+    text-align: center;
+}
+
+.main_content .inner {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.main_content .inner strong {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 24px 0 16px 0;
+}
+
+.main_content .inner p {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 0 16px 0;
+
+    color: #a8a8a8;
+}
+
+.main_content .inner .won {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner {
+    padding: 80px 0;
+}
+
+.zico {
+    padding: 80px 0;
+}
+
+.zico .tit h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
