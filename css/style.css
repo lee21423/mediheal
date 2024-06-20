@@ -6,7 +6,7 @@
     z-index: 999;
 
     color: #1d2088;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
 }
 
@@ -48,6 +48,8 @@
     font-size: 32px;
     font-weight: 400;
 }
+
+
 
 .main_visual {
     position: relative;
@@ -113,80 +115,221 @@
     width: 100%;
 }
 
-.content {
-    padding: 80px 0;
-}
 
-.content .inner {
-    display: flex;
-    gap: 30px;
-    width: 1100px;
-    margin: 0 auto;
-}
-
-.content .inner .img_box {
-    position: relative;
-    margin: 0 0 16px 0;
-}
-
-.content .inner p {
-    display: block;
-    font-size: 20px;
-    font-weight: 400;
-    margin: 0 0 16px 0;
-    text-align: center;
-}
 
 .main_content {
     padding: 120px 0;
 }
 
-.main_content .tit h2 {
-    font-size: 42px;
-    font-weight: 500;
-    margin: 0 0 32px 0;
-    text-align: center;
-}
-
 .main_content .inner {
-    max-width: 100%;
+    display: flex;
+    gap: 30px;
+    width: 1500px;
     margin: 0 auto;
 }
 
-.main_content .inner strong {
-    display: block;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 700;
-    margin: 24px 0 16px 0;
+.main_content .inner .img_box {
+    position: relative;
+    margin: 0 0 24px 0;
+}
+
+.main_content .inner .img_box img {
+    width: 200px;
 }
 
 .main_content .inner p {
     display: block;
-    text-align: center;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 500;
     margin: 0 0 16px 0;
+    text-align: center;
+}
+
+
+
+.main_slide {
+    padding: 0 0 160px 0;
+}
+
+.main_slide .tit h2 {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0 0 48px 0;
+    text-align: center;
+}
+
+.main_slide .inner {
+    width: 1810px;
+    margin: 0 auto;
+}
+
+.main_slide .inner strong {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin: 24px 0 16px 0;
+}
+
+.main_slide .inner p {
+    display: block;
+    font-size: 16px;
+    margin: 0 0 60px 0;
+    text-align: center;
+    color: #a8a8a8;
+}
+
+
+
+.main_banner {
+    padding: 170px;
+    background: url(../images/bannr.jpg)no-repeat fixed center top/cover;
+}
+
+
+
+.main_product {
+    padding: 160px 0;
+}
+
+.main_product .tit {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0 0 48px 0;
+    text-align: center;
+}
+
+.main_product .inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    width: 1810px;
+    margin: 0 auto;
+}
+
+
+
+.main_product .inner strong {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 24px 0 16px 0;
+}
+
+.main_product .inner p {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 0 24px 0;
 
     color: #a8a8a8;
 }
 
-.main_content .inner .won {
+.main_product .inner .won {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_product .inner .net {
+    color: #a8a8a8;
+    text-decoration: line-through;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.main_product .inner .sale {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.main_product .inner .percent {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: right;
+    color: #1d2088;
+    margin: 0 0 0 180px;
+}
+
+.last_content {
+    padding: 120px 0;
+    width: 1410px;
+    margin: 0 auto 40px auto;
+}
+
+.last_content .tit {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 0 48px 0;
+}
+
+.last_content .inner {
+    display: flex;
+    gap: 40px;
+    width: 1410px;
+    margin: 0 auto;
+}
+
+.last_content .inner strong {
     display: block;
     text-align: center;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 500;
+
+    margin: 24px 0 24px 0;
 }
 
-.banner {
-    padding: 80px 0;
-}
-
-.zico {
-    padding: 80px 0;
-}
-
-.zico .tit h2 {
-    font-size: 32px;
-    font-weight: 700;
+.last_content .inner p {
+    display: block;
     text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #a8a8a8;
+}
+
+.last_content .inner a {
+    margin: 40px 0 16px 0;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #1d2088;
+    color: #1d2088;
+
+    border-radius: 4px;
+
+}
+
+.footer {
+    background: #1d2088;
+    color: #fff;
+    padding: 80px 0;
+
+    display: block;
+    unicode-bidi: isolate;
+}
+
+
+.footer .inner img {
+    width: 15%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+}
+
+.footer .menu_box {
+    width: 1410px;
+    margin: 0 auto;
+}
+
+.footer .menu_box ul {
+    margin: 0;
+}
+
+.footer .menu_box ul {
+    display: flex;
+    gap: 40px;
 }

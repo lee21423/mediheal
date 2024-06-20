@@ -11,6 +11,9 @@ $(function () {
         loop: true,
         slidesPerView: 4,
         spaceBetween: 30,
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
     })
 
 });
